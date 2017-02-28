@@ -1,6 +1,6 @@
 const { groupBy } = require('lodash');
-const packageReferences = require('./fixtures');
+const fixtues = require('./fixtures');
 
-const items = groupBy(packageReferences, (ref) => ref.id);
+const items = groupBy(fixtues, (item) => item.id.substring(0, 2));
 
-console.log(items);
+console.log(JSON.stringify(items, null, 4));
