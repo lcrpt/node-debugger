@@ -1,3 +1,8 @@
 # node-debugge
 
-Debugging its javascript code bits quickly
+Debug your javascript code as fast as you can :)
+
+### run it 
+`yarn install`
+`nvm use`
+`make start`
